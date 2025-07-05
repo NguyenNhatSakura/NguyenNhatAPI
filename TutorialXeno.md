@@ -7,7 +7,7 @@ This guide explains how to integrate and use the **NguyenNhat API** in your Visu
 ## 📦 Prerequisites
 
 - A properly set up Visual Studio project.
-- The NguyenNhat API library (`QuorumAPI.dll` file).
+- The NguyenNhat API library (`NguyenNhatAPI.dll` file).
 
 ---
 
@@ -21,11 +21,11 @@ This guide explains how to integrate and use the **NguyenNhat API** in your Visu
 
 - **Extract Files**:
   - From the NguyenNhat API archive, extract:
-    - `QuorumAPI.dll`
+    - `NguyenNhatAPI.dll`
     - `bin` folder
 
 - **Place Files**:
-  - Move both the `QuorumAPI.dll` and the `bin` folder into your project’s output directory:
+  - Move both the `NguyenNhatAPI.dll` and the `bin` folder into your project’s output directory:
     - `YourProject/bin/x64/Debug/`
     - or `YourProject/bin/x64/Release/`
 
@@ -35,7 +35,7 @@ This guide explains how to integrate and use the **NguyenNhat API** in your Visu
 
 - In **Solution Explorer**, right-click **References**.
 - Click **Add Reference...**.
-- Browse to the location of `QuorumAPI.dll`.
+- Browse to the location of `NguyenNhatAPI.dll`.
 - Select and click **Add**.
 
 ---
@@ -45,4 +45,4 @@ This guide explains how to integrate and use the **NguyenNhat API** in your Visu
 At the top of your C# file, add:
 
 ```csharp
-using QuorumAPI;
+using NguyenNhatAPI;
